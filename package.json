@@ -24,6 +24,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@siteglass/pattern-library": "^0.2.11"
+    "simple-dependency": "file:simple-dependency"
   }
 }

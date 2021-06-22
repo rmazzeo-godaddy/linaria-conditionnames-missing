@@ -1,0 +1,23 @@
+{
+  "name": "simple-dependency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./package.json": "./package.json",
+    "./sizes": {
+      "require": "./cjs/sizes.js",
+      "import": "./esm/sizes.js"
+    },
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js"
+    }
+  }
+}
